@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Divi child
+ Theme URI:    https://www.elegantthemes.com/
+ Description:  Divi child theme
+ Author:       Denislav Popov
+ Template:     Divi
+ Version:      1.0.0
+ Tags:         Analytics, GreenSock GSAP, Bootsrap, Font-awesome ready
+ Text Domain:  Divi-child
+*/
+
+/*Bootstrap fix removing default gray background on hover for nav links*/
+.nav>li>a:focus, .nav>li>a:hover{background: none !important;}
+
+/*Bottom footer bar styles*/
+#custom-bottom-footer{color: #e0e0e0;text-align: center;}
+#footer-bottom {padding: 15px 0 15px !important;}
