@@ -17,7 +17,7 @@ To use this child theme you need:
 
 1. Download/Clone this repository.
 
-    1.1. You can clone this repository to your ```wp-content/themes```  with terminal by using the following commands: ```https://github.com/Denislav23/Divi-child.git```.
+    1.1. You can clone this repository to your ```wp-content/themes```  with terminal by using the following commands: ```git clone https://github.com/Denislav23/Divi-child.git```.
     1.2. If you don't have Git installed, you can download the ZIP file and extract it into your ```wp-content/themes``` folder via FTP or just paste it if you are working locally.
     1.3. Download the ZIP file and upload it via the wordpress theme uploader (Appearance -> Themes -> Add New -> Upload Theme).
 
