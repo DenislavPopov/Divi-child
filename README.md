@@ -1,6 +1,6 @@
 # Divi Child Theme ready for Google Analytics, GreenSock GSAP, Bootsrap and Font Awesome.
 
-This child theme comes with code that allows you to directly use the great features of [Bootstrap](https://getbootstrap.com/docs/3.3/), beautiful icons from [Font Awesome](http://fontawesome.io/) and the crazy fast [GreenSock Animation Platform](https://greensock.com/) in your next project based on one of the most popular theme for Wordpress - Divi. All this in under 500KB.
+This child theme comes with code that allows you to directly use the great features of [Bootstrap](https://getbootstrap.com/docs/3.3/), beautiful icons from [Font Awesome](http://fontawesome.io/) and the crazy fast [GreenSock Animation Platform](https://greensock.com/) in your next project, based on one of the most popular themes for Wordpress - Divi. All this in under 500KB.
 
 ## Getting Started
 
@@ -33,7 +33,7 @@ To use this child theme you need:
 - ```footer.php``` - removed the Divi branding and added 2 column layout which fills in your site name and current year with the wordpress functions ```get_bloginfo( 'name' )``` and ```date('Y')```. Google analytics tracking code added where you just need to change ```UA-XXXXX-X``` to be your site's ID.
 - ```functions.php``` - contains includes of the parent stylesheet and the inludes of the required files for GreenSock GSAP, Bootsrap and Font Awesome. With best practices in mind the resources are registered and included with the wordpress functions ```wp_register_script```, ```wp_register_style```, ```wp_enqueue_script``` and ```wp_enqueue_style```. By default the resources are loaded via CDN, but in case you want to load them from your server just unncomment the lines that use the local resources and comment the CDN ones. As beeing up to date always is very important the autoupdate for plugins is also enabled. To disable it just delete the filter ```add_filter( 'auto_update_plugin', '__return_true' );```.
 - ```style.css``` - here goes all your custom CSS styles.
-- ```Divi-child/assets/js/custom/custom.js``` - here you can write your JS code and make the magic happen. There is a commented sample code that creates smooth appearence for the main menu in just 2 lines of code using the GreenSock ```TweenMax();```.
+- ```Divi-child/assets/js/custom/custom.js``` - here you can write your JS code and make the magic happen. There is a commented sample code, that creates smooth appearence for the main menu in just 2 lines of code using the GreenSock ```TweenMax();```.
 ```
 var menu = document.getElementById("et-top-navigation");
 TweenMax.fromTo(menu, 2, {opacity: 0}, {opacity: 1});
