@@ -31,10 +31,10 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
 				<div id="footer-bottom">
 					<div class="container clearfix">
-                        <div class="row" id="custom-bottom-footer">
-                            <div class="col-md-6 col-sm-12"><?php echo get_bloginfo( 'name' ); ?></div>
-                            <div class="col-md-6 col-sm-12">	&copy; 2000 – <?php echo date('Y'); ?> </div>
-                        </div>
+						<div class="row" id="custom-bottom-footer">
+						    <div class="col-md-6 col-sm-12"><?php echo get_bloginfo( 'name' ); ?></div>
+						    <div class="col-md-6 col-sm-12">	&copy; 2000 – <?php echo date('Y'); ?> </div>
+						</div>
 					</div>	<!-- .container -->
 				</div>
 			</footer> <!-- #main-footer -->
